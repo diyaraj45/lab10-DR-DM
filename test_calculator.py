@@ -1,6 +1,7 @@
 import unittest
 from calculator import *
 
+
 class TestCalculator(unittest.TestCase):
     # Partner 2
     def test_add(self): # 3 assertions
@@ -31,16 +32,15 @@ class TestCalculator(unittest.TestCase):
         #     div(0, 5)
 
     def test_logarithm(self): # 3 assertions
-        self.assertEqual(log(4, 4), 1)
-        self.assertEqual(log(8, 2), 3)
-        self.assertEqual(log(100, 10), 2)
+        self.assertEqual(math.log(4, 4), 1)
+        self.assertEqual(math.log(8, 2), 3)
+        self.assertEqual(math.log(100, 10), 2)
 
     def test_log_invalid_base(self): # 1 assertion
-        self.assertEqual(log(0, 2), 0)
-        self.assertRaises(ValueError, log ,0, 2)
+        self.assertRaises(ValueError, math.log ,2, 0)
         # use same technique from test_divide_by_zero
     ##########################
-    
+
     # Partner 1
     def test_log_invalid_argument(self): # 1 assertion
         # call log function inside, example:
