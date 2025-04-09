@@ -13,9 +13,6 @@ def hypotenuse(a, b):
 def add(a, b): 
     return a + b
 
-def subtract(a, b):
-    return a - b
-
 def multiply(a, b):
     return a * b
 
@@ -31,11 +28,8 @@ def logarithm(a, b):
     else:
         return math.log(a, b)
 
-def exponential(a, b):
+def exp(a, b):
     return a ** b
-
-
-
 
 
 
