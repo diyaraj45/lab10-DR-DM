@@ -1,3 +1,7 @@
+# https://github.com/diyaraj45/lab10-DR-DM.git
+#Partner 1 - Diya Raj
+#Partner 2 - David Mendoza
+
 import unittest
 from calculator import *
 
