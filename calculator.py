@@ -1,3 +1,6 @@
+# https://github.com/diyaraj45/lab10-DR-DM.git
+#Partner 1 - Diya Raj
+#Partner 2 - David Mendoza
 import math
 
 # First example
@@ -16,10 +19,10 @@ def add(a, b):
 def sub(a, b):
     return a - b
 
-def multiply(a, b):
+def mul(a, b):
     return a * b
 
-def divide(a, b):
+def div(a, b):
     if a == 0:
         raise ZeroDivisionError
     else:
